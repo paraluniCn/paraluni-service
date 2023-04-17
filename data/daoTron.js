@@ -1,12 +1,12 @@
-const url = 'https://paraluni.org/images'
+const url = 'https://static.paraluni.org/images'
 const poolInfo = {
     'TNx4eA17QANL3prrypCzunyTcekaPjdvvS': //DHC 聚合池
-        {
-            symbol: 'DHC/V42',
-            img: url + '/Logos/DHC-V42.png',
-            DHC: 'TNx4eA17QANL3prrypCzunyTcekaPjdvvS',
-            V42: 'TFqiPzeXDZeyDjLm6zAzwPSZaSx2FPmxuT',
-        },
+    {
+        symbol: 'DHC/V42',
+        img: url + '/Logos/DHC-V42.png',
+        DHC: 'TNx4eA17QANL3prrypCzunyTcekaPjdvvS',
+        V42: 'TFqiPzeXDZeyDjLm6zAzwPSZaSx2FPmxuT',
+    },
     'TZJbtEjXVrWKfsCC8iLok46WZWBNE73qCp': {   //WTRX/DHC LP池
         symbol: 'DHC/WTRX',
         img: url + '/Logos/WTRX-DHC.png',
@@ -132,7 +132,7 @@ const poolInfo = {
         FAMP: 'TPQTCJSQs1ukGTZnAt6oEEF3zPv91F96PQ',
         V42: 'TFqiPzeXDZeyDjLm6zAzwPSZaSx2FPmxuT',
     },
-    'TKgPc7WHSjPpBHFGY5Wx9ZyMf3MVSLVpGq':{  //底池 V42-WTRX
+    'TKgPc7WHSjPpBHFGY5Wx9ZyMf3MVSLVpGq': {  //底池 V42-WTRX
         symbol: 'V42/WTRX',
         img: url + '/Logos/V42-TRX.png',
         V42: 'TP9kyEaTJJz7YZtyyTHpcnKwM4pMQMTHx1',
@@ -147,9 +147,9 @@ const poolInfo = {
     //     token: 'TVkCPuxkS61CTpiEBCWdkZs2DT6vwVT7xh',
     //     name: 'USDT/TRX'
     // },
-    'TP9kyEaTJJz7YZtyyTHpcnKwM4pMQMTHx1':{ //V42聚合池
+    'TP9kyEaTJJz7YZtyyTHpcnKwM4pMQMTHx1': { //V42聚合池
         symbol: 'V42/V42',
-        img:url+'/Logos/logo-yellow@2x.png',
+        img: url + '/Logos/logo-yellow@2x.png',
         V42: 'TP9kyEaTJJz7YZtyyTHpcnKwM4pMQMTHx1',
     }
 }
@@ -160,18 +160,18 @@ const daoList = {
     aggregationList: [
         {
             type: 1,
-            pid:38,
+            pid: 38,
             symbol: 'V42/V42',
-            img:url+'/Logos/logo-yellow@2x.png',
+            img: url + '/Logos/logo-yellow@2x.png',
             V42: 'TP9kyEaTJJz7YZtyyTHpcnKwM4pMQMTHx1',
             token: 'TP9kyEaTJJz7YZtyyTHpcnKwM4pMQMTHx1',
             name: '质押V42 60天 赚取V42',
         },
         {
             type: 1,
-            pid:39,
+            pid: 39,
             symbol: 'V42/V42',
-            img:url+'/Logos/logo-yellow@2x.png',
+            img: url + '/Logos/logo-yellow@2x.png',
             V42: 'TP9kyEaTJJz7YZtyyTHpcnKwM4pMQMTHx1',
             token: 'TP9kyEaTJJz7YZtyyTHpcnKwM4pMQMTHx1',
             name: '质押V42 90天 赚取V42',

@@ -1,11 +1,11 @@
-const url = 'https://paraluni.org/images'
+const url = 'https://static.paraluni.org/images'
 const poolInfo = {
     'TGEUiJqmZwpsQsQThp6c4BxxZRfqhNNG6U': //聚合池
-        {
-            symbol: 'V42/V42',
-            img: url + '/Logos/logo-yellow@2x.png',
-            v42: 'TGEUiJqmZwpsQsQThp6c4BxxZRfqhNNG6U',
-        },
+    {
+        symbol: 'V42/V42',
+        img: url + '/Logos/logo-yellow@2x.png',
+        v42: 'TGEUiJqmZwpsQsQThp6c4BxxZRfqhNNG6U',
+    },
     'TBa4moDg6ZAT6h9vWdM7iLTkDNty4ndFN5': {   //WTRX/DHC LP池
         symbol: 'DHC/WTRX',
         img: url + '/Logos/DHC-TRX.png',

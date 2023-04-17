@@ -1,6 +1,6 @@
 // const url = 'https://test.paraluni.org/images';
 // const url = 'http://localhost:8890/images';
-const url = 'https://paraluni.org/images';
+const url = 'https://static.paraluni.org/images';
 const chef0 = [
     {
         "pid": 0,
@@ -173,7 +173,7 @@ const chef1 = [
         "symbol": "USDT",
         "decimal": 18,
         profitName: 'APR',
-        img: 'https://paraluni.org/images/products/USDT@2x.png'
+        img: 'https://static.paraluni.org/images/products/USDT@2x.png'
     },
 ]
 

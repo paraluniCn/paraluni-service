@@ -19,18 +19,18 @@ router.get('/daoList', function (req, res) {
     res.json(poolInfo);
 });
 router.get('/getPoolInfo/:pid', function (req, res) {
-    const {pid}=req.params;
-    let data={}
-    Object.keys(daoData.daoList).map(key=>{
-        if(data&&data.pid){
+    const { pid } = req.params;
+    let data = {}
+    Object.keys(daoData.daoList).map(key => {
+        if (data && data.pid) {
             return
         }
-        daoData.daoList[key].map(item=>{
-            if(data&&data.pid){
+        daoData.daoList[key].map(item => {
+            if (data && data.pid) {
                 return
             }
-            if(item.pid==pid){
-                data=item
+            if (item.pid == pid) {
+                data = item
             }
         })
     })

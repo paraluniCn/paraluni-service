@@ -1,25 +1,25 @@
-const url = 'https://paraluni.org/images'
+const url = 'https://static.paraluni.org/images'
 const poolInfo = {
     '0xA573cD6890b50E02Dd658164882ee7B6A86C1122': //质押V42(old)赚取V42
-        {
-            symbol: 'V42(old)/V42',
-            img: url + '/Logos/V42_OLD.png',
-            'V42(old)': '0xA573cD6890b50E02Dd658164882ee7B6A86C1122'
-        },
+    {
+        symbol: 'V42(old)/V42',
+        img: url + '/Logos/V42_OLD.png',
+        'V42(old)': '0xA573cD6890b50E02Dd658164882ee7B6A86C1122'
+    },
     '0xFdc7a089CD7463dd6be155A7f3f21CF10338B888': //质押CF赚取V42
-        {
-            symbol: 'CF/V42',
-            img: url + '/tinified/CF.png',
-            CF: '0xFdc7a089CD7463dd6be155A7f3f21CF10338B888',
-            v42: '0xA573cD6890b50E02Dd658164882ee7B6A86C1122'
-        },
+    {
+        symbol: 'CF/V42',
+        img: url + '/tinified/CF.png',
+        CF: '0xFdc7a089CD7463dd6be155A7f3f21CF10338B888',
+        v42: '0xA573cD6890b50E02Dd658164882ee7B6A86C1122'
+    },
     '0x4C4D7C721d4889430f4AcEe4f2bfd2d67eD8c944': //CF-USDT LP池
-        {
-            symbol: 'CF/USDT',
-            img: url + '/tinified/CF-USDT.png',
-            CF: '0xFdc7a089CD7463dd6be155A7f3f21CF10338B888',
-            USDT: '0x55d398326f99059ff775485246999027b3197955'
-        },
+    {
+        symbol: 'CF/USDT',
+        img: url + '/tinified/CF-USDT.png',
+        CF: '0xFdc7a089CD7463dd6be155A7f3f21CF10338B888',
+        USDT: '0x55d398326f99059ff775485246999027b3197955'
+    },
     '0x25621C9B6529bA74E8E3C36bF1ff79552E976Af9': { //CF-USDT有质押功能的联合挖矿
         symbol: 'CF/USDT',
         img: url + '/tinified/CF-USDT-UNIT.png',
@@ -93,48 +93,48 @@ const poolInfo = {
         XRK: '0x600F437DD7d9bd431A4B5156655183f118d2640A',
         V42: '0xA573cD6890b50E02Dd658164882ee7B6A86C1122',
     },
-    '0xBb87F2a37cf805E3755Cb1e7DA41140589190e25':{
+    '0xBb87F2a37cf805E3755Cb1e7DA41140589190e25': {
         symbol: 'V42/V42',
         img: url + '/Logos/logo-yellow@2x.png',
         V42: '0xBb87F2a37cf805E3755Cb1e7DA41140589190e25',
     },
-    '0x23d1169b05F3dF1AcB12cd9a514af7f9df2d8510':{  //NL-USDT LP池
+    '0x23d1169b05F3dF1AcB12cd9a514af7f9df2d8510': {  //NL-USDT LP池
         symbol: 'NL/USDT',
         img: url + '/Logos/NL-USDT.png',
         NL: '0xf9fb823089f7178fc19be2bf1d811937bbf3f331',
         USDT: '0x55d398326f99059ff775485246999027b3197955',
     },
-    '0xf9fb823089f7178fc19be2bf1d811937bbf3f331':{
+    '0xf9fb823089f7178fc19be2bf1d811937bbf3f331': {
         symbol: 'NL/V42',
         img: url + '/Logos/NL.png',
         NL: '0xf9fb823089f7178fc19be2bf1d811937bbf3f331',
         V42: '0xA573cD6890b50E02Dd658164882ee7B6A86C1122',
     },
-    '0xC5F9248B9BA7e3A3613677b4268F7F6155E17E05':{
+    '0xC5F9248B9BA7e3A3613677b4268F7F6155E17E05': {
         symbol: 'BTCB/USDT',
         img: url + '/Logos/BTCB-USDT.png',
         BTCB: '0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c',
         USDT: '0x55d398326f99059ff775485246999027b3197955',
     },
-    '0xc21F3C89C8955E7f8Af5A5B26642dAaf8c494932':{
+    '0xc21F3C89C8955E7f8Af5A5B26642dAaf8c494932': {
         symbol: 'QFD/CF',
         img: url + '/Logos/QFD-CF.png',
         QFD: '0x9fb934d49056120573b54A3d3148C36214A464a4',
         CF: '0xFdc7a089CD7463dd6be155A7f3f21CF10338B888',
     },
-    '0x6c49Fd7785A8901593Df4c9605011fE20332301E':{
+    '0x6c49Fd7785A8901593Df4c9605011fE20332301E': {
         symbol: 'QFD/CF',
         img: url + '/Logos/QFD-CF.png',
         QFD: '0x6C12dE1f85aA804955d235f3D05e216ae339D99A',
         CF: '0xFdc7a089CD7463dd6be155A7f3f21CF10338B888',
     },
-    '0x3794ab6DF3AC91FC2277dd6dD31a563b3134Db44':{
+    '0x3794ab6DF3AC91FC2277dd6dD31a563b3134Db44': {
         symbol: 'Aster/USDT',
         img: url + '/Logos/ASTER-USDT.png',
         Aster: '0x846b8F848bd3e55183E03DBc8170655947Cc3C2c',
         USDT: '0x55d398326f99059ff775485246999027b3197955',
     },
-    '0x55d398326f99059ff775485246999027b3197955':{
+    '0x55d398326f99059ff775485246999027b3197955': {
         symbol: 'USDT/V42',
         img: url + '/products/USDT@2x.png',
         USDT: '0x55d398326f99059ff775485246999027b3197955',
@@ -446,7 +446,7 @@ const daoList = {
             CF: '0xFdc7a089CD7463dd6be155A7f3f21CF10338B888',
         },
         {
-            type:3,
+            type: 3,
             pid: 40,
             symbol: 'Aster/USDT',
             img: url + '/Logos/ASTER-USDT.png',

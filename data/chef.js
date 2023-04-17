@@ -1,6 +1,6 @@
 // const url = 'https://test.paraluni.org/images';
 // const url = 'http://localhost:8890/images';
-const url = 'https://paraluni.org/images';
+const url = 'https://static.paraluni.org/images';
 const chef0 = [
   {
     "pid": 0,
