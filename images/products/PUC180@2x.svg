@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>product/PUC180@2x</title>
+    <defs>
+        <circle id="path-1" cx="14" cy="14" r="14"></circle>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="product/PUC180" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo-puc" transform="translate(4.000000, 4.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="椭圆形" fill="#FFED62" xlink:href="#path-1"></use>
+            <path d="M23.052,12.8617394 C23.052,13.0890727 22.868,13.2730727 22.6406667,13.2730727 L5.74533333,13.2730727 C5.518,13.2730727 5.33333333,13.0890727 5.33333333,12.8617394 L5.33333333,11.3070727 C5.33333333,11.0804061 5.518,10.8957394 5.74533333,10.8957394 L13.0993333,10.8957394 C14.292,10.8957394 15.3571084,10.248227 16.4233469,9.5021753 C17.1341726,9.0048075 19.0915014,7.17074907 22.2953333,4 C22.6206667,4 22.8173333,4.36066667 22.6406667,4.63466667 L18.6813333,10.8957394 L22.6406667,10.8957394 C22.868,10.8957394 23.052,11.0804061 23.052,11.3070727 L23.052,12.8617394 Z" id="形状结合" fill="#21206D" filter="url(#filter-3)" mask="url(#mask-2)"></path>
+            <path d="M23.052,24.1950727 C23.052,24.4224061 22.868,24.6064061 22.6406667,24.6064061 L5.74533333,24.6064061 C5.518,24.6064061 5.33333333,24.4224061 5.33333333,24.1950727 L5.33333333,22.6404061 C5.33333333,22.4137394 5.518,22.2290727 5.74533333,22.2290727 L13.0993333,22.2290727 C14.292,22.2290727 15.3571084,21.5815603 16.4233469,20.8355086 C17.1341726,20.3381408 19.0915014,18.5040824 22.2953333,15.3333333 C22.6206667,15.3333333 22.8173333,15.694 22.6406667,15.968 L18.6813333,22.2290727 L22.6406667,22.2290727 C22.868,22.2290727 23.052,22.4137394 23.052,22.6404061 L23.052,24.1950727 Z" id="形状结合备份" fill="#21206D" filter="url(#filter-4)" mask="url(#mask-2)" transform="translate(14.192667, 19.969870) scale(-1, -1) translate(-14.192667, -19.969870) "></path>
+        </g>
+        <circle id="椭圆形" fill="#211F6D" cx="30" cy="30" r="8"></circle>
+        <circle id="椭圆形" fill="#211F6D" cx="20" cy="30" r="8"></circle>
+        <text id="180" font-family="SFProDisplay-BoldItalic, SF Pro Display" font-size="13" font-style="italic" font-weight="bold" letter-spacing="-0.5" fill="#FFFFFF">
+            <tspan x="14" y="35">180</tspan>
+        </text>
+    </g>
+</svg>

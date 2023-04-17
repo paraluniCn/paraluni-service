@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/Synthetic@2x</title>
+    <g id="icon/Synthetic" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="矩形备份" fill="#3B2E7E" x="17" y="9" width="22" height="22" rx="11"></rect>
+        <rect id="矩形备份-9" fill="#FFED62" x="1" y="9" width="22" height="22" rx="11"></rect>
+        <path d="M23,20 C23,22.9230856 21.859839,25.5798724 19.999981,27.5498963 C18.140161,25.5798724 17,22.9230856 17,20 C17,17.0771014 18.1400151,14.4204677 19.999662,12.4504818 C21.8599849,14.4204677 23,17.0771014 23,20 Z" id="形状结合" fill="#FFFFFF"></path>
+    </g>
+</svg>

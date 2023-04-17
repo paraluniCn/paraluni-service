@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=\"development\" pm2 start index.js",
+    "start-prd": "cross-env pm2 start index.js",
+    "stop": "/var/www/html/data-paraluni-localhost/node_modules/pm2/bin/pm2 stop /var/www/html/data-paraluni-localhost/index.js",
+    "tmpStart": "cross-env NODE_ENV=\"development\" /var/www/html/data-paraluni-localhost/node_modules/pm2/bin/pm2 start /var/www/html/data-paraluni-localhost/index.js -l ./index_log.log"
+  },
+  "author": "paraluni",
+  "license": "ISC",
+  "dependencies": {
+    "bignumber.js": "^9.0.1",
+    "core-js": "^3.6.5",
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1",
+    "pm2": "^5.2.2",
+    "web3": "^1.8.2"
+  }
+}

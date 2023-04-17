@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/invest/normal@1x</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="36" height="36" rx="18"></rect>
+    </defs>
+    <g id="控件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/invest/normal">
+            <text id="理财" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal" fill="#9E9EB3">
+                <tspan x="6.5" y="47">理财</tspan>
+            </text>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="矩形备份-2" fill="#FFFFFF" xlink:href="#path-1"></use>
+            <path d="M28.5702479,22.9008264 C28.5702479,23.5702479 27.8264463,23.8677686 27.3057851,23.4214876 L23.8842975,20 L16,26.768595 C15.107438,27.661157 13.6942149,27.661157 12.8760331,26.768595 L8.11570248,21.338843 L-0.363636364,28.7768595 C-0.661157025,29.0743802 -1.10743802,29.0743802 -1.40495868,28.7768595 L-1.7768595,28.4049587 C-2.07438017,28.107438 -2.07438017,27.661157 -1.7768595,27.3636364 L6.55371901,15.9834711 C7.44628099,15.0909091 8.85950413,15.0909091 9.67768595,15.9834711 L14.4380165,20.7438017 L19.2727273,15.1652893 L16.1487603,12.338843 C15.7024793,11.892562 16,11 16.6694215,11 L27.0826446,11 C27.9008264,11 28.4958678,11.7438017 28.4958678,12.5619835 L28.4958678,22.9008264 L28.5702479,22.9008264 Z" id="路径" fill="#CBCBE6" fill-rule="nonzero" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>
